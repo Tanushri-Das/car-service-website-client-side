@@ -24,6 +24,11 @@ const Services = () => {
           <Service key={service._id} service={service} />
         ))}
       </div>
+      <div className="mt-8 flex justify-center items-center">
+        <button className="border border-[#ff3811] py-2 px-4 rounded font-semibold about-heading">
+          More Services
+        </button>
+      </div>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="bg-black py-[77px]">
+    <div className="bg-[#151515] py-[77px]">
       <div className="lg:ms-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-center items-center">
         <div className="ps-9 lg:ps-0">
           <NavLink
